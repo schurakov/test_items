@@ -9,11 +9,15 @@
 ```python
 python -m venv test_env
 ```
-3. Активировать окружение командой:
+3. Активировать окружение:
 ```python
 python test_env/bin/activate
 ```
-4. Запустить тест командой:
+4. Установить зависимости:
+```python
+pip install -r requirements.txt
+```
+5. Запустить тест:
 ```python
 pytest --language=fr test_items.py
 ```
